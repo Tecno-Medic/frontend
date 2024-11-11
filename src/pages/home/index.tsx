@@ -1,11 +1,9 @@
 import { Button } from "@/components/ui/button";
 
-function App() {
+export const HomePage = () => {
   return (
     <div className="text-red-400">
-      <Button>Click me</Button>
+      <Button>Home</Button>
     </div>
   );
-}
-
-export default App;
+};
